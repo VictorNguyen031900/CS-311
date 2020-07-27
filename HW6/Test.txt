@@ -1,0 +1,99 @@
+Script started on Sat 09 Nov 2019 01:24:15 PM PST
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW6[?1034h[nguye481@empress forHW6]$ g++ hw6client.cpp dgraph.cpp llist.cpp slist.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW6[nguye481@empress forHW6]$ ./a.out
+Enter a file name: table.txt
+The numeber of edges is: 12
+Vertices   Out   Visit   Adj
+---------------------------------
+    A       2      0     [B] [F] 
+    B       2      0     [C] [G] 
+    C       1      0     [H] 
+    D       0      0     [ empty ]
+    E       0      0     [ empty ]
+    F       2      0     [I] [E] 
+    G       0      0     [ empty ]
+    H       2      0     [G] [I] 
+    I       3      0     [A] [G] [E] 
+Please enter the vertex: A
+2 edges comes out to:
+[B] [F] 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: B
+2 edges comes out to:
+[C] [G] 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: C
+1 edges comes out to:
+[H] 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: D
+0 edges comes out to:
+[ empty ]
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: E
+0 edges comes out to:
+[ empty ]
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: F
+2 edges comes out to:
+[I] [E] 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: G
+0 edges comes out to:
+[ empty ]
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: H
+2 edges comes out to:
+[G] [I] 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: I
+3 edges comes out to:
+[A] [G] [E] 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 0
+
+Please enter the vertex: j
+ERROR: vertex does not exist! 
+Please, enter one of the following: 
+0. to look at another vertex.
+1. to quit.
+Your option: 1
+
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW6[nguye481@empress forHW6]$ exit
+exit
+
+Script done on Sat 09 Nov 2019 01:25:37 PM PST

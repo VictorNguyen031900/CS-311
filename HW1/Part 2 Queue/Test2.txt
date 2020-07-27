@@ -1,0 +1,32 @@
+Script started on Thu 12 Sep 2019 06:22:25 PM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P2_queue[?1034h[nguye481@empress HW1P2_queue]$ g++ client2.cpp queue.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P2_queue[nguye481@empress HW1P2_queue]$ ./a.out
+A
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+ERROR: Queue is full!
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P2_queue[nguye481@empress HW1P2_queue]$ exit
+exit
+
+Script done on Thu 12 Sep 2019 06:22:38 PM PDT

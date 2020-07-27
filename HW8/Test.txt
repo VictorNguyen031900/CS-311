@@ -1,0 +1,119 @@
+Script started on Sat 23 Nov 2019 04:04:30 PM PST
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW8[?1034h[nguye481@empress forHW8]$ g++ hw8client.cpp htable.cpp elem.cpp slist.cpp llist.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW8[nguye481@empress forHW8]$ ./a.out
+╔═════════════════════════════════════════════════╗
+║        Enter an account #(0-999) and name       ║
+╚═════════════════════════════════════════════════╝
+Person #1 name: john 2
+john's account number: 200
+Person #2 name: jeremy
+jeremy's account number: 237
+Person #3 name: bob
+bob's account number: 12
+Person #4 name: victor
+victor's account number: 500
+Person #5 name: rika
+rika's account number: 100
+Person #6 name: mary
+mary's account number: 101
+Person #7 name: steve
+steve's account number: 201
+Person #8 name: nancy
+nancy's account number: 238
+Person #9 name: jessica
+jessica's account number: 130
+Person #10 name: emily
+emily's account number: 980
+Person #11 name: vivian
+vivian's account number: 456
+Person #12 name: ian
+ian's account number: 432
+Person #13 name: alan
+alan's account number: 422
+Person #14 name: henry
+henry's account number: 69
+Person #15 name: jodi
+jodi's account number: 70
+Person #16 name: fed
+fed's account number: 71
+Person #17 name: imane
+imane's account number: 72
+Person #18 name: janet
+janet's account number: 81
+Person #19 name: edison
+edison's account number: 91
+Person #20 name: albert
+albert's account number: 109
+
+╔═════════╗
+║  Table  ║
+╚═════════╝
+0:[ empty ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ empty ]
+6:[ empty ]
+7:[81+janet] 
+8:[ empty ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[12+bob] [456+vivian] 
+13:[ empty ]
+14:[ empty ]
+15:[200+john] [237+jeremy] [422+alan] 
+16:[201+steve] [238+nancy] 
+17:[91+edison] 
+18:[980+emily] 
+19:[500+victor] [130+jessica] 
+20:[ empty ]
+21:[ empty ]
+22:[ empty ]
+23:[ empty ]
+24:[ empty ]
+25:[432+ian] 
+26:[100+rika] 
+27:[101+mary] 
+28:[ empty ]
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[69+henry] 
+33:[70+jodi] 
+34:[71+fed] 
+35:[72+imane] [109+albert] 
+36:[ empty ]
+
+╔═════════════════════════════════════════════════════════╗
+║  Note to exit program, enter -1 when looking for a key. ║
+╚═════════════════════════════════════════════════════════╝
+Look for?: 200
+Found 200: 200+john
+Look for?: 238
+Found 238: 238+nancy
+Look for?: 99
+99 not found.
+Look for?: 30
+30 not found.
+Look for?: 130
+Found 130: 130+jessica
+Look for?: 500
+Found 500: 500+victor
+Look for?: 71
+Found 71: 71+fed
+Look for?: 72
+Found 72: 72+imane
+Look for?: 109
+Found 109: 109+albert
+Look for?: 422
+Found 422: 422+alan
+Look for?: 237
+Found 237: 237+jeremy
+Look for?: -1
+Quit Program.
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW8[nguye481@empress forHW8]$ exit
+exit
+
+Script done on Sat 23 Nov 2019 04:07:12 PM PST

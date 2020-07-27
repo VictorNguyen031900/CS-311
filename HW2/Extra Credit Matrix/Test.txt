@@ -1,0 +1,10 @@
+Script started on Sun 22 Sep 2019 11:40:29 AM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2EC_matrix[?1034h[nguye481@empress HW2EC_matrix]$ g++ mat.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2EC_matrix[nguye481@empress HW2EC_matrix]$ ./a.out
+0| a b c | d e f | - - - | - - - 
+1| - - - | - - - | g h i | j k l 
+2| - - - | - - - | - - - | - - - 
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2EC_matrix[nguye481@empress HW2EC_matrix]$ exit
+exit
+
+Script done on Sun 22 Sep 2019 11:40:41 AM PDT

@@ -1,0 +1,334 @@
+Script started on Thu 12 Sep 2019 04:38:56 PM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P2_queue[?1034h[nguye481@empress HW1P2_queue]$ g++ queue.cpp queuetest.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P2_queue[nguye481@empress HW1P2_queue]$ ./a.out
+************** Queue Test Program *************
+This program tests the queue ADT implemented as
+an array.  
+It is a menu based program allowing you to test each method. 
+It displays the entire queue whenever it is modified.
+***********************************************
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[ empty ]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : a
+The updated contents of the queue are:  
+[a]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : b
+The updated contents of the queue are:  
+[ab]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : c
+The updated contents of the queue are:  
+[abc]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : d
+The updated contents of the queue are:  
+[abcd]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : e
+The updated contents of the queue are:  
+[abcde]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : f
+The updated contents of the queue are:  
+[abcdef]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : g
+The updated contents of the queue are:  
+[abcdefg]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : h
+The updated contents of the queue are:  
+[abcdefgh]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : i
+The updated contents of the queue are:  
+[abcdefghi]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : j
+The updated contents of the queue are:  
+[abcdefghij]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>4
+a is at the front.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>3
+a has been removed.
+The updated contents of the queue are: [bcdefghij]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>4
+b is at the front.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[bcdefghij]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>1
+Enter a string to be added : k
+The updated contents of the queue are:  
+[bcdefghijk]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>8
+10 elements are in Queue.
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[bcdefghijk]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>7
+[cdefghijkb]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>2
+The current contents are: 
+[cdefghijkb]
+
+MENU: These are your options: 
+
+   (1) Add an element   
+   (2) Display the entire queue  
+   (3) Remove an element
+   (4) Display the front element
+   (5) Check to see if is it empty
+   (6) Check to see if is it full
+   (7) Go to Back
+   (8) Get size
+    Enter ( 0 ) to quit 
+===>0
+Bye bye - ending the queue test program
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P2_queue[nguye481@empress HW1P2_queue]$ exit
+exit
+
+Script done on Thu 12 Sep 2019 04:40:53 PM PDT

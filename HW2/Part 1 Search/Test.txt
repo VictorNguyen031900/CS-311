@@ -1,0 +1,51 @@
+Script started on Fri 20 Sep 2019 08:51:41 PM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[?1034h[nguye481@empress HW2P1_search]$ g++ binsearch.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 1
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Found it in position 1
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 19
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Found it in position 10
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 5
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+Found it in position 3
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 17
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+Found it in position 9
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 21
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Element not found
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 0
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Element not found
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ ./a.out
+What do you want to look for? 6
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+comparing against an element in slot 3
+Element not found
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P1_search[nguye481@empress HW2P1_search]$ exit
+exit
+
+Script done on Fri 20 Sep 2019 08:52:17 PM PDT

@@ -1,0 +1,74 @@
+Script started on Sat 28 Sep 2019 11:26:54 AM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[?1034h[nguye481@empress HW2P2_sort]$ g++ partition.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements? (must be less than 10) 7
+Enter elements one per line..
+1
+2
+3
+4
+5
+6
+7
+Ok the pivot is 1
+Results...
+1|234567
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+8
+7
+6
+5
+4
+3
+2
+1
+Ok the pivot is 8
+swap 8 and 1
+Results...
+1765432|8
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+5
+1
+4
+3
+6
+7
+8
+2
+Ok the pivot is 5
+swap 5 and 2
+Results...
+2143|6785
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements? (must be less than 10) 6
+Enter elements one per line..
+4
+3
+1
+2
+7
+5
+Ok the pivot is 4
+swap 4 and 2
+Results...
+231|475
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements? (must be less than 10) 5
+Enter elements one per line..
+2
+6
+4
+1
+7
+Ok the pivot is 2
+swap 2 and 1
+Results...
+1|6427
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ exit
+exit
+
+Script done on Sat 28 Sep 2019 11:28:07 AM PDT

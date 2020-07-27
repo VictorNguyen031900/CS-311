@@ -1,0 +1,36 @@
+Script started on Thu 05 Sep 2019 05:51:05 PM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[?1034h[nguye481@empress HW1P1_stack]$ g++ client1.cpp stack.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 34+
+Result: 7
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 345+*
+Result: 27
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 722+-
+Result: 3
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 34+56++
+Result: 18
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 12+34*45+-+
+Result: 6
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 1234567891234
+ERROR: Too many numbers in your expression.
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: +
+ERROR: Not enough numbers in your expression to complete the expression.
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 3+
+ERROR: Not enough numbers in your expression to complete the expression.
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 3#
+ERROR:  Invalid character.  Please only use numbers and operators!
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ ./a.out
+type a postfix expression: 2345+
+ERROR: Incomplete expression.  Please make sure you entered it in correctly.
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW1/HW1P1_stack[nguye481@empress HW1P1_stack]$ exit
+exit
+
+Script done on Thu 05 Sep 2019 05:52:24 PM PDT

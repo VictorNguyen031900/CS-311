@@ -1,0 +1,42 @@
+Script started on Fri 18 Oct 2019 07:12:01 PM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW3[?1034h[nguye481@empress forHW3]$ g++ HW3P2client.cpp llist.cpp slist.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW3[nguye481@empress forHW3]$ ./a.out
+... in llist constructor...
+slist constructor:
+Step 1 addFront
+Step 2 addRear
+Step 3
+[4] [6] [7] [8] 
+Step 4
+Found 6 in location 2
+Step 5 replace 6
+Step 6
+[4] [0] [7] [8] 
+Step 7
+Found 8 in location 4
+Step 8 replace 8
+Step 9
+[4] [0] [7] [2] 
+Step 10
+Found 5 in location 0
+Step 11 replace 7
+ERROR: Bad position was given
+.... in llist destructor...
+---- First Part testing done ----- 
+... in llist constructor...
+slist constructor:
+... in llist constructor...
+slist constructor:
+true
+false
+false
+true
+false
+false
+false
+.... in llist destructor...
+.... in llist destructor...
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW3[nguye481@empress forHW3]$ exit
+exit
+
+Script done on Fri 18 Oct 2019 07:12:29 PM PDT

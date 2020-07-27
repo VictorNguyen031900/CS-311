@@ -1,0 +1,77 @@
+Script started on Fri 27 Sep 2019 06:27:51 PM PDT
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[?1034h[nguye481@empress HW2P2_sort]$ g++ combine.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements in each list?
+3
+List1
+element :1
+element :2
+element :3
+List2
+element :4
+element :5
+element :6
+comparison
+comparison
+comparison
+The rest of the first one does down.
+The result is: 123456
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements in each list?
+3
+List1
+element :1
+element :3
+element :5
+List2
+element :2
+element :4
+element :6
+comparison
+comparison
+comparison
+comparison
+comparison
+The rest of the first one does down.
+The result is: 123456
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements in each list?
+3
+List1
+element :4
+element :5
+element :6
+List2
+element :1
+element :2
+element :3
+comparison
+comparison
+comparison
+The rest of the first one does down.
+The result is: 123456
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ ./a.out
+How many elements in each list?
+4
+List1
+element :1
+element :2
+element :5
+element :6
+List2
+element :3
+element :4
+element :7
+element :8
+comparison
+comparison
+comparison
+comparison
+comparison
+comparison
+The rest of the first one does down.
+The result is: 12345678
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/forHW2/HW2P2_sort[nguye481@empress HW2P2_sort]$ exit
+exit
+
+Script done on Fri 27 Sep 2019 06:28:56 PM PDT
