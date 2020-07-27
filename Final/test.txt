@@ -1,0 +1,257 @@
+Script started on Thu 12 Dec 2019 02:44:28 PM PST
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/FinalProject[?1034h[nguye481@empress FinalProject]$ g++ userClient.cpp binstree.cpp elem.cpp
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/FinalProject[nguye481@empress FinalProject]$ ./a.out
+Enter a file name: input.txt
+All entries from "input.txt" were entered into tree successfully!.
+==============================
+╔══════════╗
+║   Menu   ║
+╚══════════╝
+1. Display all computers.
+2. Search for computer based from price.
+3. Quit Program.
+Enter option: 1
+==============================
+╔═════════════╗
+║  Computers  ║
+╚═════════════╝
+Price: $198.47
+CPU: AMD 3300 G
+GPU: AMD R9 1234
+RAM: 32 Gigabytes
+TYPE: BASIC
+
+Price: $198.47
+CPU: AMD 1700 K
+GPU: NVIDIA GT 1050
+RAM: 64 Gigabytes
+TYPE: BASIC
+
+Price: $234.76
+CPU: INTEL 9600 K
+GPU: AMD R9 2390
+RAM: 16 Gigabytes
+TYPE: WORKSTATION
+
+Price: $234.98
+CPU: AMD 3700 X
+GPU: NVIDIA RTX 7654
+RAM: 128 Gigabytes
+TYPE: BASIC
+
+Price: $234.98
+CPU: AMD 1500 K
+GPU: NVIDIA GT 1039
+RAM: 16 Gigabytes
+TYPE: BASIC
+
+Price: $235.83
+CPU: AMD 2600 G
+GPU: AMD R9 3990
+RAM: 8 Gigabytes
+TYPE: BASIC
+
+Price: $298.73
+CPU: AMD 3990 X
+GPU: AMD R9 8976
+RAM: 16 Gigabytes
+TYPE: BASIC
+
+Price: $357.24
+CPU: AMD 8350 K
+GPU: NVIDIA GT 1030
+RAM: 4 Gigabytes
+TYPE: BASIC
+
+Price: $364.27
+CPU: INTEL 9500 F
+GPU: AMD FURY 8800
+RAM: 4 Gigabytes
+TYPE: BASIC
+
+Price: $423.56
+CPU: INTEL 9900 K
+GPU: AMD R9 8732
+RAM: 32 Gigabytes
+TYPE: GAMING
+
+Price: $543.12
+CPU: INTEL 4790 K
+GPU: AMD FURY 4000
+RAM: 32 Gigabytes
+TYPE: GAMING
+
+Price: $743.89
+CPU: INTEL 7740 K
+GPU: AMD FURY 9970
+RAM: 16 Gigabytes
+TYPE: GAMING
+
+Price: $753.54
+CPU: INTEL 6100 G
+GPU: NVIDIA GTX 2000
+RAM: 16 Gigabytes
+TYPE: GAMING
+
+Price: $753.54
+CPU: INTEL 2570 K
+GPU: AMD RX 5700
+RAM: 16 Gigabytes
+TYPE: GAMING
+
+Price: $872.32
+CPU: INTEL 9700 F
+GPU: NVIDIA RTX 1236
+RAM: 16 Gigabytes
+TYPE: GAMING
+
+Price: $876.97
+CPU: INTEL 4600 K
+GPU: NVIDIA GTX 6700
+RAM: 8 Gigabytes
+TYPE: GAMING
+
+Price: $973.57
+CPU: AMD 2990 X
+GPU: NVIDIA GTX 1080
+RAM: 8 Gigabytes
+TYPE: GAMING
+
+Price: $975.25
+CPU: AMD 2000 G
+GPU: AMD RX 5800
+RAM: 8 Gigabytes
+TYPE: GAMING
+
+Price: $982.56
+CPU: AMD 1600 K
+GPU: NVIDIA GTX 1600
+RAM: 4 Gigabytes
+TYPE: BASIC
+
+Price: $1024.93
+CPU: AMD 3400 G
+GPU: NVIDIA GTX 1050
+RAM: 16 Gigabytes
+TYPE: GAMING
+
+Price: $1209.56
+CPU: INTEL 6700 K
+GPU: AMD RX 8765
+RAM: 8 Gigabytes
+TYPE: WORKSTATION
+
+Price: $1235.92
+CPU: INTEL 3570 F
+GPU: NVIDIA RTX 2060
+RAM: 32 Gigabytes
+TYPE: WORKSTATION
+
+Price: $1324.21
+CPU: AMD 3950 X
+GPU: NVIDIA RTX 2080
+RAM: 32 Gigabytes
+TYPE: WORKSTATION
+
+Price: $1629.86
+CPU: AMD 9570 X
+GPU: NVIDIA RTX 2070
+RAM: 32 Gigabytes
+TYPE: GAMING
+
+Price: $1645.23
+CPU: INTEL 9980 X
+GPU: AMD R9 2330
+RAM: 64 Gigabytes
+TYPE: BASIC
+
+Price: $2378.87
+CPU: INTEL 5960 X
+GPU: NVIDIA GTX 9432
+RAM: 64 Gigabytes
+TYPE: WORKSTATION
+
+Price: $4298.26
+CPU: INTEL 6950 X
+GPU: NVIDIA RTX 9880
+RAM: 32 Gigabytes
+TYPE: WORKSTATION
+
+Price: $9784.23
+CPU: AMD 3950 K
+GPU: NVIDIA RTX 3080
+RAM: 32 Gigabytes
+TYPE: WORKSTATION
+
+==============================
+╔══════════╗
+║   Menu   ║
+╚══════════╝
+1. Display all computers.
+2. Search for computer based from price.
+3. Quit Program.
+Enter option: 2
+==============================
+Enter in a price: $100
+searching for a computer $100
+╔═══════════════╗
+║  Computer(s)  ║
+╚═══════════════╝
+Price: $198.47
+CPU: AMD 3300 G
+GPU: AMD R9 1234
+RAM: 32 Gigabytes
+TYPE: BASIC
+
+Price: $198.47
+CPU: AMD 1700 K
+GPU: NVIDIA GT 1050
+RAM: 64 Gigabytes
+TYPE: BASIC
+
+==============================
+╔══════════╗
+║   Menu   ║
+╚══════════╝
+1. Display all computers.
+2. Search for computer based from price.
+3. Quit Program.
+Enter option: 2
+==============================
+Enter in a price: $2000
+searching for a computer $2000
+╔═══════════════╗
+║  Computer(s)  ║
+╚═══════════════╝
+Price: $1645.23
+CPU: INTEL 9980 X
+GPU: AMD R9 2330
+RAM: 64 Gigabytes
+TYPE: BASIC
+
+==============================
+╔══════════╗
+║   Menu   ║
+╚══════════╝
+1. Display all computers.
+2. Search for computer based from price.
+3. Quit Program.
+Enter option: 2
+==============================
+Enter in a price: $754
+searching for a computer $754
+╔═══════════════╗
+║  Computer(s)  ║
+╚═══════════════╝
+Price: $234.76
+CPU: INTEL 9600 K
+GPU: AMD R9 2390
+RAM: 16 Gigabytes
+TYPE: WORKSTATION
+
+Price: $0
+Segmentation fault
+]0;nguye481@empress:~/cs311/CS311Progs/HWPrograms/FinalProject[nguye481@empress FinalProject]$ exit
+exit
+
+Script done on Thu 12 Dec 2019 02:45:18 PM PST
